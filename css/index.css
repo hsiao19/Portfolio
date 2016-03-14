@@ -1,0 +1,394 @@
+body{
+	width:100%;
+	margin:0;
+	font-family:'微軟正黑體';
+}
+
+
+nav{
+	width:100%;
+	min-width:1200px;
+	position:fixed;
+	top:0px;
+	height:67px;
+	background-color:#3f3f3f;			
+}
+.leftnav{
+	float:left;
+	font-size:1.1em;
+	font-weight:bold;
+	margin-top:23px;
+	margin-left:13%;
+}.rightnav{
+	float:right;
+	font-size:1em;
+	font-weight:bold;
+	margin-top:25px;
+	margin-right:13%;
+}
+.rightnav span{
+	margin:20px;
+}
+
+nav a{text-decoration:none;}
+nav a:link{color:white;}
+nav a:hover{color: white;	text-decoration:underline}      
+nav a:visited {	color: white;}　
+nav a:active{color: white;}
+
+
+.content{
+	margin-left:13%;
+	margin-right:14%;
+}
+
+
+.startPage_content{
+	display: inline-block;
+}
+#startPage{
+	width:100%;
+	min-width:1200px;
+	background-color:#0c54a5;	
+	height:450px;
+	padding-top:290px;	
+	color:white;	
+}
+#myPic{
+	width:140px;
+	margin-bottom: 20px;
+}
+#start_Name{
+	font-size:31px;
+	font-weight:bold;
+	margin-bottom: 10px;
+}
+.start_subtitle{
+	font-size:19px;
+	font-weight:bold;
+}
+
+#aboutMe{
+	min-width:1200px;
+	height:600px;
+	padding-top:100px;
+	background-color:#ffffff;	
+}
+.aboutMe_title{
+	float:left;
+	margin-top:170px;
+	font-size:50pt;
+	font-weight:bold;
+	color:#0c54a5;	
+}
+.aboutMe_content_right{
+	width:480px;
+	float:right;
+	margin-left:10px;
+	margin-top:120px;
+	font-size:13pt;
+	font-weight:900;
+	letter-spacing:1.4px;
+	line-height: 28px;
+	color:#333333;
+}
+
+
+#skill_and_exp{
+	min-width:1200px;
+	height:850px;
+	background-color:#e8e7e7;
+}
+
+.skill{
+	float:left;
+	padding-top:20px;
+	width : 55%;
+}
+.skill_title{
+	padding-top:50px;
+	font-size:50pt;
+	font-weight:bold;
+	color:#333333;
+	margin-bottom: 20px;
+}
+.skill_content{
+	color:#333333;
+	font-weight:900;
+	line-height: 25px;
+}
+.skill_type{
+	font-size:13pt;
+	letter-spacing:1.1px;	
+}
+.skill_details{
+	font-size:11pt;
+	letter-spacing:0.2px;	
+	margin-bottom: 20px;
+}
+
+.exp{
+	float:right;
+	padding-top:20px;
+	width : 45%;
+}
+.exp_title{
+	padding-top:50px;
+	font-size:50pt;
+	font-weight:bold;
+	color:#333333;
+	margin-bottom: 20px;
+}
+.exp_content{
+	color:#333333;
+	font-weight:900;
+	line-height: 25px;
+}
+.a_type_of_exp{
+	margin-bottom: 20px;
+}
+.exp_type{
+	font-size:13pt;
+	letter-spacing:1.1px;	
+}
+.exp_details{
+	font-size:11pt;
+	letter-spacing:0.2px;	
+}
+
+
+#workStartPage{
+	min-width:1200px;
+	height:450px;
+	padding-top:220px;	
+	background-color:#0c54a5;
+}
+.workStart_title{
+	font-size:75px;
+	font-weight:bold;
+	color:#ffffff;
+}
+#myWork{
+	width:400px;
+	margin:0 auto;
+}
+#collection{
+	width:550px;
+	margin:0 auto;
+}
+.workStartPage_content{
+	width:650px;
+	margin:0 auto;
+	margin-top:30px;
+}
+.workStartPage_content div{
+	display:inline;
+	margin:10px;
+	font-size:1.1em;
+	font-weight:bold;
+}
+.workStartPage_content a{text-decoration:none;}
+.workStartPage_content a:link{color:white;}
+.workStartPage_content a:hover{color: white;	text-decoration:underline}      
+.workStartPage_content a:visited {	color: white;}　
+.workStartPage_content a:active{color: white;}
+
+.backToCollection{float:right; margin-right:13%;}
+.backToCollection a{text-decoration:none;}
+.backToCollection a:link{color:#383838;}
+.backToCollection a:hover{color:#383838;	text-decoration:underline}      
+.backToCollection a:visited {	color:#383838;}　
+.backToCollection a:active{color: #383838;}
+
+
+#infinigen{
+	min-width:1200px;
+	padding-top:140px;
+	height:3000px;
+	background-color:#EDEDED;
+}
+.infinigen_info{
+	height:280px;
+}
+.infinigen_infoText{
+	float:left;
+	margin-left:10%;
+}
+.infinigen_infoTextTitle{
+	font-size:21pt;
+	font-weight:bold;
+	color:#383838;
+}
+.infinigen_infoTextContent{
+	color:#7A7A7A;
+	font-weight:bold;
+}
+.infinigen_infoImg{
+	float:right;
+	margin-right:11%;
+	width:250px;
+}
+#infinigenMainImg{
+	width:100%;
+}
+
+.infinigen_DM{
+	height:1200px;
+	margin-left:10%;
+	margin-right:10%;
+}
+.DM_title{
+	font-size:16pt;
+	font-weight:bold;
+	color:#383838;
+}
+.infinigen_DM img{
+	width:99%;
+	margin-top:15px;
+}
+
+.infinigen_NameCard{
+	height:480px;
+	margin-left:10%;
+	margin-right:10%;
+}
+.NameCard_title{
+	font-size:16pt;
+	font-weight:bold;
+	color:#383838;
+}
+.infinigen_NameCard img{
+	width:49%;
+	margin-top:15px;
+}
+#nameCard_front{ float:left; }
+#nameCard_back{ float:right; margin-right:1%}
+
+.infinigen_FBCover{
+	height:900px;
+	margin-left:10%;
+	margin-right:10%;
+}
+.FBCover_title{
+	font-size:16pt;
+	font-weight:bold;
+	color:#383838;
+}
+.FBCover_subTitle{
+	font-size:12pt;
+	color:#383838;
+}
+.infinigen_FBCover img{
+	width:49%;
+	margin-top:10px;
+	margin-right:1%;
+	float:left;
+}
+
+
+#product{
+	min-width:1200px;
+	padding-top:120px;
+	height:2650px;
+	background-color:#D3D3D3;	
+}
+.product_title{
+	width:180px;
+	margin: 0 auto;
+	font-size:21pt;
+	font-weight:bold;
+	color:#383838;
+}
+.product_img{
+	margin-top:10px;
+	margin-bottom:30px;
+	margin-left:10%;
+	margin-right:10%;
+}
+.product_img img{
+	width:99%;
+	margin-top:15px;
+}
+
+
+#poster{
+	min-width:1200px;
+	padding-top:120px;
+	height:1000px;
+	background-color:#EDEDED;	
+}
+.poster_title{
+	width:120px;
+	margin: 0 auto;
+	font-size:21pt;
+	font-weight:bold;
+	color:#383838;
+	margin-bottom:20px;
+}
+.poster_img{
+	margin-left:10%;
+	margin-right:10%;
+	height:780px;
+}
+.poster_img img{
+	margin:1%;
+	width:47.5%;
+}
+
+
+#other{
+	min-width:1200px;
+	padding-top:120px;
+	height:1900px;
+	background-color:#D3D3D3;	
+}
+.other_title{
+	width:60px;
+	margin: 0 auto;
+	font-size:21pt;
+	font-weight:bold;
+	color:#383838;
+	margin-bottom:10px;
+}
+.other_img{
+	margin-left:10%;
+	margin-right:10%;
+	height:1700px;
+}
+.other_img img{
+	margin-left:15%;
+	margin-top:20px;
+	width:70%;
+}
+
+
+footer{
+	width:100%;
+	min-width:1200px;
+	height:50px;
+	background-color:#202020;
+}
+#footerText{
+	color:#FFFFFF;
+	width:150px;
+	margin:0 auto;
+	padding-top:15px;
+	font-size:10pt;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

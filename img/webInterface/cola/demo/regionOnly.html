@@ -1,0 +1,50 @@
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link rel="stylesheet" type="text/css" href="reset.css" />
+		<link rel="stylesheet" type="text/css" href="DB.css" />
+	</head>
+
+	<body>
+		<!--nav bar-->		
+		<div id="header-wrapper">
+			<div id="block_FixNavBar">
+				<div id="logo">
+					<a href="DB.html"><img src="logo_white.png" alt="logo"></a>
+				</div>		
+				<div id="Right-nav">5-A 季節銷售分析查詢系統</div>
+			</div>
+		</div>
+		<!--end of nav bar-->
+		
+		<div id="regionSelector">
+			<div id = "regionSelectImg"><img src="map.png" alt="map_img"></div>	
+			<div id="selector_regionOnly">
+				<form action="region_result.php" method="post" id = "regionSelectForm">				
+					<div class="searchTitle">以地區查詢</div>
+					<span class="title_region">地區</span>
+					<select  name='region' id = "regionList">
+						<option value="A">日本</option>
+						<option value="B">韓國</option>
+						<option value="C">泰國</option>
+						<option value="D">馬來西亞/新加坡</option>
+						<option value="E">印尼</option>
+						<option value="F">中南半島</option>
+						<option value="G">中國大陸</option>
+						<option value="H">港澳地區</option>
+						<option value="I">美加</option>
+						<option value="J">太平洋/印度洋島嶼</option>
+						<option value="K">紐澳</option>
+						<option value="L">歐洲</option>
+						<option value="M">中東/南亞/非洲</option>
+						<option value="N">全球遊輪</option>
+						<option value="P">菲律賓</option>
+					</select>
+					<input type="submit"  id = "submitBtn">
+				</form>	
+			</div>
+		</div>
+	</body>
+	
+	
+</html>

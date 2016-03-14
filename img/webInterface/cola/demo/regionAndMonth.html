@@ -1,0 +1,63 @@
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link rel="stylesheet" type="text/css" href="reset.css" />
+		<link rel="stylesheet" type="text/css" href="DB.css" />
+	</head>
+
+	<body>
+		<!--nav bar-->		
+		<div id="header-wrapper">
+			<div id="block_FixNavBar">
+				<div id="logo">
+					<a href="DB.html"><img src="logo_white.png" alt="logo"></a>
+				</div>		
+				<div id="Right-nav">5-A 季節銷售分析查詢系統</div>
+			</div>
+		</div>
+		<!--end of nav bar-->
+	
+	
+		<div id="monthSelector">
+			<div id = "monthSelectImg"><img src="calender.png" alt="calender_img"></div>	
+			<div id="selector_month">
+					<form action="regionMonth_result.php" method="post" id = "regionSelectForm">
+						<div class="searchTitle">以地區&年份查詢</div>
+						<span class="title_region">地區</span>
+						<select  name='region' id = "regionList">
+							<option value="A">日本</option>
+							<option value="B">韓國</option>
+							<option value="C">泰國</option>
+							<option value="D">馬來西亞/新加坡</option>
+							<option value="E">印尼</option>
+							<option value="F">中南半島</option>
+							<option value="G">中國大陸</option>
+							<option value="H">港澳地區</option>
+							<option value="I">美加</option>
+							<option value="J">太平洋/印度洋島嶼</option>
+							<option value="K">紐澳</option>
+							<option value="L">歐洲</option>
+							<option value="M">中東/南亞/非洲</option>
+							<option value="N">全球遊輪</option>
+							<option value="P">菲律賓</option>
+						</select>
+						</br>
+						
+						<span id="title_year">年份</span>
+						<select  name='year' id = "yearList">
+							<option value="2010">2010</option>
+							<option value="2011">2011</option>
+							<option value="2012">2012</option>
+							<option value="2013">2013</option>
+						</select>
+						
+					
+						<input type="submit"  id = "submitBtn">
+						
+					</form>	
+				</div>
+			</div>
+	</body>
+	
+	
+</html>
