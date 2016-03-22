@@ -6,7 +6,9 @@
 		<![endif]-->
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<link rel="stylesheet" type="text/css" href="css/index.css" />	
-		<link rel="stylesheet" href="css/reset.css" />
+		<link rel="stylesheet" href="css/reset.css" />		
+		<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+		<script type="text/javascript" src="js/index.js"></script>
 		<title>YU TUNG HSIAO 蕭宇彤</title>
 	</head>
 
@@ -20,14 +22,15 @@
 				<div><a href="#startPage">YU-TUNG,HSIAO 蕭宇彤</a></div>
 			</div>
 			<div class="rightnav">
-				<span><a href="#aboutMe">關於我 [ 簡歷 ]</a></span>
+				<span><a href="#aboutMe">about me</a></span>
+				<span><a href="#skill_and_exp">skills & experience</a></span>
 				<span><a href="#workStartPage">作品集</a></span>
 			</div>
 		</nav>
 		
 
 
-		<!-- --------     content        --------------------------------------------------------------------- -->
+		<!-- --------     content        -------------------------------------------------------------------- -->
 		<!-- --------     start page      ---------- -->
 		<div  id="startPage">
 			<div class='content'>
@@ -49,13 +52,13 @@
 					<p>我是蕭宇彤，現在是政大四年級的學生，
 						主修資管，雙主修數位內容。我的興趣很廣泛，
 						我喜歡視覺設計和數位設計，
-						同時也有些微涉獵行銷及心理學領域。
+						同時也有些微涉獵心理學領域。
 						大學期間我找了很多相關的課程及活動參與，
 						例如參與台科大產品設計課程，
 						於台大藝術季創作，修習社會心理學課程等等。
-						除了設計以外，我還花了點時間練習寫程式，
+						除此以外，我還花了點時間練習寫程式，
 						讓自己的程式能力能有一定的水平。</p><br/>
-					<p>個性方面，我是個隨和而且負責的人，
+					<p>個性方面，我認為自己是個隨和而且負責的人，
 						我喜歡在不同的合作中認識不同的人，
 						我享受每個和別人合作的機會，
 						並且也喜歡觀察不同人的想法、做事方式。</p>
@@ -69,17 +72,17 @@
 				<div class="skill">
 					<div class="skill_title">SKILLS</div>
 					<div class="skill_content">
-						<div class="skill_type">程式語言類</div>
-						<div class="skill_details">
-							python ( django / flask / 網站開發 )、java、php、<br/>
-							html、javascript、css<br/>
-						</div>
+						
 
 						<div class="skill_type">平面 / 影像設計類</div>
 						<div class="skill_details">
 							Photoshop、Illustrator、Flash
 						</div>
-
+						<div class="skill_type">程式語言類</div>
+						<div class="skill_details">
+							python ( django / flask / 網站開發 )、java、php、<br/>
+							html、javascript、css<br/>
+						</div>
 						<div class="skill_type">數位創作類</div>
 						<div class="skill_details">
 							Processing、Arduino、Resolume Arena、Unity、<br/>
@@ -124,9 +127,16 @@
 						</div>
 
 						<div class="a_type_of_exp">
+							<div class="exp_type">競賽經驗</div>
+							<div class="exp_details">2016 03 
+													&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  
+													E化系統創意競賽 優良</div>
+						</div>
+
+						<div class="a_type_of_exp">
 							<div class="exp_type">工作經驗</div>
 							<div class="exp_details">2014-2016 &nbsp&nbsp 
-													女媧科技 程式實習生</div>
+													女媧科技 系統維護實習生</div>
 							<div class="exp_details">2015 11 
 													&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  
 													台北數位藝術節工讀生</div>
@@ -139,13 +149,6 @@
 							<div class="exp_details">2013 09 
 													&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  
 													粉樂町當代藝術展志工</div>
-						</div>
-
-						<div class="a_type_of_exp">
-							<div class="exp_type">競賽經驗</div>
-							<div class="exp_details">2016 03 
-													&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  
-													E化系統創意競賽 優良</div>
 						</div>
 
 						<div class="a_type_of_exp">
@@ -165,107 +168,265 @@
 		<!-- --------     work collection     ------------------------------------------------------------- -->
 		<!-- --------     start page    ----------------- -->
 		<div  id="workStartPage">
-			<div class="workStart_title">
-				<div id="myWork">MY WORK </div>
-				<div id="collection">COLLECTIONS</div>
-			</div>			
-			<div>
-				<div class="workStartPage_content">
-						<div><a href="#infinigen">政大廣電畢展文宣設計</a></div>/
-						<div><a href="#product">產品設計</a></div>/
-						<div><a href="#poster">海報設計</a></div>/
-						<div><a href="#other">其他</a></div>
-<!-- 						<div><a href="#infinigen">產品設計</a></div>/
-						<div><a href="#product">APP UI 設計</a></div>/
-						<div><a href="#poster">平面設計</a></div>/
-						<div><a href="#other">數位創作</a></div>/
-						<div><a href="#other">手繪作品</a></div>/
-						<div><a href="#other">程式專案</a></div> -->
+			<div class='content'>
+				<div class="workStart_title">
+					<div id="myWork">MY WORK </div>
+					<div id="collection">COLLECTIONS</div>
+				</div>			
+				<div>
+					<div class="workStartPage_content">
+							<div>產品設計</div>/
+							<div>APP UI 設計</div>/
+							<div>平面設計</div>/
+							<div>數位創作</div>/
+							<div>繪圖作品</div>/
+							<div>程式設計</div>
+					</div>
 				</div>
 			</div>
 		</div>
 
-		<!-- --------     infinigen    ----------------- -->
-		<div  id="infinigen">
-		
-			<div class="infinigen_info">
-				<div class="infinigen_infoText">
-					<div class="infinigen_infoTextTitle">政大廣電畢展文宣設計</div>
-					<div class="infinigen_infoTextContent">
-						<p>**政大廣電畢展相關文宣皆依照廣電系提供之主視覺進行設計</br>
-									(廣電系主視覺如右)
-						</p>
-							廣電系畢展策展概念：</br>							本屆主題是一個全新創造的單字：Infini∞Gen，意為「無限世代」或稱「八年級世代」。</br>
-							透過８換個角度看就是無限的概念，要讓大眾重新審視新世代。
-						<p>
-						</p>
+		<!-- --------     works    ----------------- -->
+		<div  id="workCollections">
+			<div class='content'>
+				<div class="workCubeTitle">WORK COLLECTIONS</div>
+				<div class="workCubeSubTitle">
+					<div id='select_all'><a href="#works">全部</a></div> /
+					<div id='select_product'><a href="#works">產品設計</a></div> /
+					<div id='select_ui'><a href="#works">UI 設計</a></div> /
+					<div id='select_design'><a href="#works">平面設計</a></div> /
+					<div id='select_digital'><a href="#works">數位創作</a></div> /
+					<div id='select_draw'><a href="#works">繪圖作品</a></div> /
+					<div id='select_code'><a href="#works">程式設計</a></div>
+				</div>
+				<div class="workCubeContent">
+					<div class="item item-type-line code product">
+						<a class="item-hover" href="">
+							<div class="item-info left-42">
+								<div class="headline">Hot Spring Care</div>
+								<div class="headline">泡湯提醒幫手</div>
+								<div class="line"></div>
+								<div class="date">物聯網產品設計</div>
+								<div class="date">程式設計</div>
+							</div>
+							<div class="mask"></div>
+						</a>
+						<div class="item-img"><img src="img/cube/hot_spring_care.png" alt="" /></div>
 					</div>
+
+					
+					<div class="item item-type-line ui">
+						<a class="item-hover" href="">
+							<div class="item-info left-53">
+								<div class="headline">飲料店 '好了拉' </div>
+								<div class="headline">訂貨 app</div>
+								<div class="line"></div>
+								<div class="date">UI 設計</div>
+							</div>
+							<div class="mask"></div>
+						</a>
+						<div class="item-img"><img src="img/cube/big_ui.png" alt="" /></div>
+					</div>
+
+					
+					<div class="item item-type-line product">
+						<a class="item-hover" href="">
+							<div class="item-info left-66">
+								<div class="headline">防忘貼片</div>
+								<div class="headline">產品概念發想</div>
+								<div class="line"></div>
+								<div class="date">產品設計</div>
+							</div>
+							<div class="mask"></div>
+						</a>
+						<div class="item-img"><img src="img/cube/U chip_01.png" alt="" /></div>
+					</div>
+					<div class="item item-type-line draw design">
+						<a class="item-hover" href="">
+							<div class="item-info left-125">
+								<div class="headline">圖像設計</div>
+								<div class="line"></div>
+								<div class="date">繪圖作品</div>
+								<div class="date">平面設計</div>
+							</div>
+							<div class="mask"></div>
+						</a>
+						<div class="item-img"><img src="img/cube/3_0.png" alt="" /></div>
+					</div>
+					<div class="item item-type-line draw design">
+						<a class="item-hover" href="">
+							<div class="item-info left-125">
+								<div class="headline">角色設計</div>
+								<div class="line"></div>
+								<div class="date">平面設計</div>
+								<div class="date">繪圖作品</div>
+							</div>
+							<div class="mask"></div>
+						</a>
+						<div class="item-img"><img src="img/cube/character.png" alt="" /></div>
+					</div>
+					
+					
+
+					<div class="item item-type-line design">
+						<a class="item-hover" href="">
+							<div class="item-info left-80">
+								<div class="headline">Live House</div>
+								<div class="headline">視覺設計</div>
+								<div class="line"></div>
+								<div class="date">平面設計</div>
+							</div>
+							<div class="mask"></div>
+						</a>
+						<div class="item-img"><img src="img/cube/live_house_logo.png" alt="" /></div>
+					</div>
+					
+					<div class="item item-type-line design">
+						<a class="item-hover" href="">
+							<div class="item-info left-66">
+								<div class="headline">政大廣電畢展</div>
+								<div class="headline">文宣設計</div>
+								<div class="line"></div>
+								<div class="date">平面設計</div>
+							</div>
+							<div class="mask"></div>
+						</a>
+						<div class="item-img"><img src="img/cube/infinigen.png" alt="" /></div>
+					</div>
+					
+					<div class="item item-type-line draw">
+						<a class="item-hover" href="">
+							<div class="item-info left-125">
+								<div class="headline">圖像設計</div>
+								<div class="line"></div>
+								<div class="date">繪圖作品</div>
+							</div>
+							<div class="mask"></div>
+						</a>
+						<div class="item-img"><img src="img/cube/kingsman.png" alt="" /></div>
+					</div>
+
+					<div class="item item-type-line digital code product">
+						<a class="item-hover" href="">
+							<div class="item-info left-48">
+								<div class="headline">Take Me Home</div>
+								<div class="headline">商場錯置提醒</div>
+								<div class="line"></div>
+								<div class="date">數位創作</div>
+								<div class="date">程式設計</div>
+								<div class="date">產品設計</div>
+							</div>
+							<div class="mask"></div>
+						</a>
+						<div class="item-img"><img src="img/cube/openHCI.png" alt="" /></div>
+					</div>
+
+					<div class="item item-type-line digital code">
+						<a class="item-hover" href="">
+							<div class="item-info left-66">
+								<div class="headline">Live House</div>
+								<div class="headline">音樂互動空間</div>
+								<div class="line"></div>
+								<div class="date">數位創作</div>
+								<div class="date">程式設計</div>
+							</div>
+							<div class="mask"></div>
+						</a>
+						<div class="item-img"><img src="img/cube/live_house_1_0.png" alt="" /></div>
+					</div>
+					<div class="item item-type-line digital code">
+						<a class="item-hover" href="">
+							<div class="item-info left-50">
+								<div class="headline">Live House 2.0</div>
+								<div class="headline">音樂互動空間</div>
+								<div class="line"></div>
+								<div class="date">數位創作</div>
+								<div class="date">程式設計</div>
+							</div>
+							<div class="mask"></div>
+						</a>
+						<div class="item-img"><img src="img/cube/live_house_2_0.png" alt="" /></div>
+					</div>
+
+					<div class="item item-type-line digital code">
+						<a class="item-hover" href="">
+							<div class="item-info left-38">
+								<div class="headline">一節空堂</div>
+								<div class="headline">互動虛擬實境空間</div>
+								<div class="line"></div>
+								<div class="date">數位創作</div>
+								<div class="date">程式設計</div>
+							</div>
+							<div class="mask"></div>
+						</a>
+						<div class="item-img"><img src="img/cube/a_space.png" alt="" /></div>
+					</div>
+
+					<div class="item item-type-line digital">
+						<a class="item-hover" href="">
+							<div class="item-info left-38">
+								<div class="headline">秘密牆</div>
+								<div class="headline">聽與說的互動裝置</div>
+								<div class="line"></div>
+								<div class="date">數位創作</div>
+							</div>
+							<div class="mask"></div>
+						</a>
+						<div class="item-img"><img src="img/cube/serect_wall.png" alt="" /></div>
+					</div>
+
+					<div class="item item-type-line digital">
+						<a class="item-hover" href="">
+							<div class="item-info left-125">
+								<div class="headline">雷射染布</div>
+								<div class="line"></div>
+								<div class="date">數位創作</div>
+							</div>
+							<div class="mask"></div>
+						</a>
+						<div class="item-img"><img src="img/cube/laser.png" alt="" /></div>
+					</div>
+					<div class="item item-type-line draw">
+						<a class="item-hover" href="">
+							<div class="item-info left-180">
+								<div class="headline">素描</div>
+								<div class="line"></div>
+								<div class="date">繪圖作品</div>
+							</div>
+							<div class="mask"></div>
+						</a>
+						<div class="item-img"><img src="img/cube/mike.png" alt="" /></div>
+					</div>
+
+					<div class="item item-type-line draw">
+						<a class="item-hover" href="">
+							<div class="item-info left-180">
+								<div class="headline">素描</div>
+								<div class="line"></div>
+								<div class="date">繪圖作品</div>
+							</div>
+							<div class="mask"></div>
+						</a>
+						<div class="item-img"><img src="img/cube/girl.png" alt="" /></div>
+					</div>
+
+					<div class="item item-type-line code">
+						<a class="item-hover" href="">
+							<div class="item-info left-66">
+								<div class="headline">產學合作專案</div>
+								<div class="headline">訂貨決策系統</div>
+								<div class="line"></div>
+								<div class="date">程式設計</div>
+							</div>
+							<div class="mask"></div>
+						</a>
+						<div class="item-img"><img src="img/cube/ODSS.png" alt="" /></div>
+					</div>
+
+
+
 				</div>
-				<div class="infinigen_infoImg"><img src="img/infinigen/main.jpg" alt="廣電畢展主視覺" id="infinigenMainImg"></div>
-			</div>		
-			
-			<div class="infinigen_workCollection">
-				<div class="infinigen_DM">
-					<div class="DM_title">3摺DM設計</div>
-					<div><img src="img/infinigen/DM_front.jpg" alt="DM_front" id="infinigenDM_front"></div>
-					<div><img src="img/infinigen/DM_back.jpg" alt="DM_back" id="infinigenDM_back"></div>
-				</div>
-				
-				<div class="infinigen_NameCard">
-					<div class="NameCard_title">名片設計</div>
-					<div><img src="img/infinigen/nameCard_front.png" alt="nameCard_front" id="nameCard_front"></div>
-					<div><img src="img/infinigen/nameCard_back.png" alt="nameCard_back" id="nameCard_back"></div>
-				</div>
-				
-				<div class="infinigen_FBCover">
-					<div class="FBCover_title">FB粉絲頁封面照片設計/排版</div>
-					<div class="FBCover_subTitle">(劇照由廣電系提供)</div>
-					<div><img src="img/infinigen/FBCoverPhoto.jpg" alt="FBCoverPhoto" id="infinigenDM_front"></div>
-					<div><img src="img/infinigen/FBCoverPhoto_NearYear.jpg" alt="FBCoverPhoto" id="FBCoverPhoto_NearYear"></div>
-					<div><img src="img/infinigen/FBCoverPhoto_movie7.jpg" alt="FBCoverPhoto" id="FBCoverPhoto_movie7"></div>
-					<div><img src="img/infinigen/FBCoverPhoto_movie4.jpg" alt="FBCoverPhoto" id="FBCoverPhoto_movie4"></div>
-					<div><img src="img/infinigen/FBCoverPhoto_movie3.jpg" alt="FBCoverPhoto" id="FBCoverPhoto_movie3"></div>
-					<div><img src="img/infinigen/FBCoverPhoto_movie2.jpg" alt="FBCoverPhoto" id="FBCoverPhoto_movie2"></div>
-					<div><img src="img/infinigen/FBCoverPhoto_movie5.jpg" alt="FBCoverPhoto" id="FBCoverPhoto_movie5"></div>		
-					<div><img src="img/infinigen/FBCoverPhoto_movie1.jpg" alt="FBCoverPhoto" id="FBCoverPhoto_movie1"></div>						
-				</div>						
 			</div>
-			
-			<div class="backToCollection"><a href="#workStartPage">to the top of work collection</a></div>
-		</div>
-		
-		<!-- --------   產品簡介設計    ---------------- -->
-		<div id="product">
-			<div class="product_title">產品設計</div>
-			<div class="product_img">
-				<div><img src="img/productIntroduction/U chip_01.jpg" alt="U chip_01" id="Uchip_01"></div>
-				<div><img src="img/productIntroduction/U chip_02.jpg" alt="U chip_01" id="Uchip_02"></div>
-				<div><img src="img/productIntroduction/U chip_03.jpg" alt="U chip_01" id="Uchip_03"></div>
-				<div><img src="img/productIntroduction/U chip_04.jpg" alt="U chip_01" id="Uchip_04"></div>
-				<div><img src="img/productIntroduction/U chip_05.jpg" alt="U chip_01" id="Uchip_05"></div>
-			</div>
-			<div class="backToCollection"><a href="#workStartPage">to the top of work collection</a></div>
-		</div>
-		
-		<!-- --------   海報設計    ---------------- -->
-		<div id="poster">
-			<div class="poster_title">海報設計</div>
-			<div class="poster_img">
-				<img src="img/poster/NCCU.png" alt="NCCUPoster" id="NCCUPoster">
-				<img src="img/poster/OSAAS.jpg" alt="OSAASPoster" id="OSAASPoster">
-			</div>
-			<div class="backToCollection"><a href="#workStartPage">to the top of work collection</a></div>
-		</div>
-		
-		<!-- --------   其他    ---------------- -->
-		<div id="other">
-			<div class="other_title">其他</div>
-			<div class="other_img">
-				<img src="img/other/mike.jpg" alt="mike" id="mike">
-				<img src="img/other/man.jpg" alt="man" id="man">
-				<img src="img/other/character.jpg" alt="character" id="character">
-			</div>
-			<div class="backToCollection"><a href="#workStartPage">to the top of work collection</a></div>
 		</div>
 		
 		<!-- --------     footer    ------------------------------------------------------------- -->

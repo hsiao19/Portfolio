@@ -1,7 +1,12 @@
+@font-face {
+    font-family: 'black';
+    src: url('../fonts/msjhbd.ttf');
+}
+
 body{
-	width:100%;
-	margin:0;
-	font-family:'微軟正黑體';
+	width : 100%;
+	margin : 0;
+	font-family : 'black';
 }
 
 
@@ -11,7 +16,8 @@ nav{
 	position:fixed;
 	top:0px;
 	height:67px;
-	background-color:#3f3f3f;			
+	background-color:#3f3f3f;
+	z-index:200;		
 }
 .leftnav{
 	float:left;
@@ -49,7 +55,7 @@ nav a:active{color: white;}
 #startPage{
 	width:100%;
 	min-width:1200px;
-	background-color:#0c54a5;	
+	background-color:#0c54a5;
 	height:450px;
 	padding-top:290px;	
 	color:white;	
@@ -98,11 +104,12 @@ nav a:active{color: white;}
 	min-width:1200px;
 	height:850px;
 	background-color:#e8e7e7;
+	padding-top:60px;
 }
 
 .skill{
 	float:left;
-	padding-top:20px;
+	/*padding-top:20px;*/
 	width : 55%;
 }
 .skill_title{
@@ -129,7 +136,7 @@ nav a:active{color: white;}
 
 .exp{
 	float:right;
-	padding-top:20px;
+	/*padding-top:20px;*/
 	width : 45%;
 }
 .exp_title{
@@ -186,181 +193,162 @@ nav a:active{color: white;}
 	margin:10px;
 	font-size:1.1em;
 	font-weight:bold;
+	color:white;
 }
-.workStartPage_content a{text-decoration:none;}
-.workStartPage_content a:link{color:white;}
-.workStartPage_content a:hover{color: white;	text-decoration:underline}      
-.workStartPage_content a:visited {	color: white;}　
-.workStartPage_content a:active{color: white;}
 
-.backToCollection{float:right; margin-right:13%;}
-.backToCollection a{text-decoration:none;}
-.backToCollection a:link{color:#383838;}
-.backToCollection a:hover{color:#383838;	text-decoration:underline}      
-.backToCollection a:visited {	color:#383838;}　
-.backToCollection a:active{color: #383838;}
-
-
-#infinigen{
+#workCollections{
 	min-width:1200px;
-	padding-top:140px;
-	height:3000px;
+	padding-top:80px;
+	height:1550px;
 	background-color:#EDEDED;
 }
-.infinigen_info{
-	height:280px;
+
+.workCubeTitle{
+	margin-left:1%;
+	margin-bottom: 10px;
+	font-size:1.6em;
+	font-weight : bold;
 }
-.infinigen_infoText{
-	float:left;
-	margin-left:10%;
+.workCubeSubTitle div{
+	display:inline;
+	font-size:1em;
+	font-weight : bold;
 }
-.infinigen_infoTextTitle{
-	font-size:21pt;
-	font-weight:bold;
-	color:#383838;
-}
-.infinigen_infoTextContent{
-	color:#7A7A7A;
-	font-weight:bold;
-}
-.infinigen_infoImg{
-	float:right;
-	margin-right:11%;
-	width:250px;
-}
-#infinigenMainImg{
-	width:100%;
+.workCubeSubTitle{
+	margin-bottom: 20px;
+	margin-left: 1%;
 }
 
-.infinigen_DM{
-	height:1200px;
-	margin-left:10%;
-	margin-right:10%;
-}
-.DM_title{
-	font-size:16pt;
-	font-weight:bold;
-	color:#383838;
-}
-.infinigen_DM img{
-	width:99%;
-	margin-top:15px;
-}
+.workCubeSubTitle a{text-decoration:none;}
+.workCubeSubTitle a:link{color: #131313;}
+.workCubeSubTitle a:hover{color: #131313;	text-decoration:underline}      
+.workCubeSubTitle a:visited {color: #131313;}　
+.workCubeSubTitle a:active{color: #131313;}
 
-.infinigen_NameCard{
-	height:480px;
-	margin-left:10%;
-	margin-right:10%;
-}
-.NameCard_title{
-	font-size:16pt;
-	font-weight:bold;
-	color:#383838;
-}
-.infinigen_NameCard img{
-	width:49%;
-	margin-top:15px;
-}
-#nameCard_front{ float:left; }
-#nameCard_back{ float:right; margin-right:1%}
-
-.infinigen_FBCover{
-	height:900px;
-	margin-left:10%;
-	margin-right:10%;
-}
-.FBCover_title{
-	font-size:16pt;
-	font-weight:bold;
-	color:#383838;
-}
-.FBCover_subTitle{
-	font-size:12pt;
-	color:#383838;
-}
-.infinigen_FBCover img{
-	width:49%;
-	margin-top:10px;
-	margin-right:1%;
-	float:left;
-}
-
-
-#product{
-	min-width:1200px;
-	padding-top:120px;
-	height:2650px;
-	background-color:#D3D3D3;	
-}
-.product_title{
-	width:180px;
+.workCubeContent{
 	margin: 0 auto;
-	font-size:21pt;
-	font-weight:bold;
-	color:#383838;
-}
-.product_img{
-	margin-top:10px;
-	margin-bottom:30px;
-	margin-left:10%;
-	margin-right:10%;
-}
-.product_img img{
-	width:99%;
-	margin-top:15px;
+	text-align: center;	
 }
 
-
-#poster{
-	min-width:1200px;
-	padding-top:120px;
-	height:1000px;
-	background-color:#EDEDED;	
+.item img{
+	width: 100%;					
 }
-.poster_title{
-	width:120px;
-	margin: 0 auto;
-	font-size:21pt;
-	font-weight:bold;
-	color:#383838;
-	margin-bottom:20px;
-}
-.poster_img{
-	margin-left:10%;
-	margin-right:10%;
-	height:780px;
-}
-.poster_img img{
-	margin:1%;
-	width:47.5%;
+.item {
+	display: inline-block;
+	width: 23.5%;
+	height: 230px;
+	margin: 5px;
+	position:relative;
+	float: left;	
 }
 
-
-#other{
-	min-width:1200px;
-	padding-top:120px;
-	height:1900px;
-	background-color:#D3D3D3;	
-}
-.other_title{
-	width:60px;
-	margin: 0 auto;
-	font-size:21pt;
-	font-weight:bold;
-	color:#383838;
-	margin-bottom:10px;
-}
-.other_img{
-	margin-left:10%;
-	margin-right:10%;
-	height:1700px;
-}
-.other_img img{
-	margin-left:15%;
-	margin-top:20px;
-	width:70%;
+.item-hover,
+.item-hover .mask,
+.item-img,
+.item-info {
+	width: 100%;
+	height: 230px;
 }
 
+.item-info {
+	top:50%; 
+	left:0;
+}
+
+.item-hover,
+.item-hover .mask,
+.item-img { 
+	position:absolute;
+	top:0;
+	left:0;			
+}
+
+.left-29{
+	left:29%;
+}
+.left-38{
+	left:38%;
+}
+.left-42{
+	left:42%;
+}
+.left-48{
+	left:48%;
+}
+.left-50{
+	left:50%;
+}
+.left-53{
+	left:53%;
+}
+.left-66{
+	left:68%;
+}
+.left-80{
+	left:80%;
+}
+.left-125{
+	left:125%;
+}
+.left-180{
+	left:180%;
+}
+
+.item-type-line .item-hover {	
+	z-index:100;	
+	-webkit-transition: all 300ms ease-out;
+	-moz-transition: all 300ms ease-out;
+	-o-transition: all 300ms ease-out;
+	transition: all 300ms ease-out;	
+	opacity:0;
+	cursor:pointer;						
+	display:block;
+	text-decoration:none;
+	text-align:center;
+}
+
+.item-type-line .item-info {
+	z-index:10;
+	color:#ffffff;
+	display:table-cell;
+	vertical-align:middle;
+	position:relative;
+	z-index:5;				 					
+}
+
+.item-type-line .item-info .line {
+	height:1px;
+	width:0%;
+	margin:15px auto;
+	background-color:#ffffff;
+	-webkit-transition: all 500ms ease-out;
+	-moz-transition: all 500ms ease-out;
+	-o-transition: all 500ms ease-out;
+	transition: all 500ms ease-out;					 
+
+}
+
+.item-type-line .item-hover .mask {
+	background-color:#000;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+	filter: alpha(opacity=50);										
+	opacity:0.75;
+	z-index:0;
+}
+
+.item-type-line .item-hover:hover .line {
+	width:40%;
+}
+.item-type-line .item-info .date {
+	font-size:12px;
+}
+.item-type-line .item-hover:hover {
+	opacity:1;
+}				
+
+.item-img {			
+	z-index:0;			
+}
 
 footer{
 	width:100%;
