@@ -380,11 +380,10 @@ nav a:active{color: white;}
 	font-size: 12pt;
 	margin-bottom: 10px;
 	font-weight: bold;
-	text-decoration: underline;
 }
 
 .popup_content {
-	margin-bottom: 50px;
+	margin-bottom: 60px;
 	margin-left: 2%;
 	margin-right: 2%;
 }
