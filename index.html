@@ -5,9 +5,11 @@
 		<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-		<link rel="stylesheet" type="text/css" href="css/index.css" />	
-		<link rel="stylesheet" href="css/reset.css" />		
-		<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+		<link rel="stylesheet" href="css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+		<link rel="stylesheet" type="text/css" href="css/simple-modal.css">	
+		<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>		
+		<script type="text/javascript" src="js/simple-modal.js"></script>
 		<script type="text/javascript" src="js/index.js"></script>
 		<title>YU TUNG HSIAO 蕭宇彤</title>
 	</head>
@@ -24,7 +26,7 @@
 			<div class="rightnav">
 				<span><a href="#aboutMe">about me</a></span>
 				<span><a href="#skill_and_exp">skills & experience</a></span>
-				<span><a href="#workStartPage">作品集</a></span>
+				<span><a href="#workCollections">作品集</a></span>
 			</div>
 		</nav>
 		
@@ -34,19 +36,14 @@
 		<!-- --------     start page      ---------- -->
 		<div  id="startPage">
 			<div class='content'>
-				<!-- <div class='startPage_content'>
-					<div><img src="img/MyPic.png" alt="MyPic" id="MyPic"></div>
-				</div>
-				<div class='startPage_content'> -->
-					<div id="start_name">YU-TUNG,HSIAO 蕭宇彤</div>
-					<div class="start_subtitle">政大資管 / 數位內容大四</div>
-					<div class="start_subtitle">yutunghsiao19@gmail.com</div>
-				<!-- </div> -->
+				<div id="start_name">YU-TUNG,HSIAO 蕭宇彤</div>
+				<div class="start_subtitle">政大資管 / 數位內容大四</div>
+				<div class="start_subtitle">yutunghsiao19@gmail.com</div>
 			</div>
 		</div>
 		
 		<div  id="aboutMe">
-			<div class="content aboutMe_content_left">
+			<div class="content">
 				<div class="aboutMe_title">ABOUT ME</div>
 				<div class="aboutMe_content_right">
 					<p>我是蕭宇彤，現在是政大四年級的學生，
@@ -61,7 +58,7 @@
 					<p>個性方面，我認為自己是個隨和而且負責的人，
 						我喜歡在不同的合作中認識不同的人，
 						我享受每個和別人合作的機會，
-						並且也喜歡觀察不同人的想法、做事方式。</p>
+						也喜歡觀察不同人的想法、做事方式。</p>
 				</div>
 			</div>			
 		</div>
@@ -72,8 +69,6 @@
 				<div class="skill">
 					<div class="skill_title">SKILLS</div>
 					<div class="skill_content">
-						
-
 						<div class="skill_type">平面 / 影像設計類</div>
 						<div class="skill_details">
 							Photoshop、Illustrator、Flash
@@ -109,15 +104,16 @@
 							<div class="exp_details">2015 05 
 													&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  
 													台大藝術季 一節空堂</div>
+							<div class="exp_details">2015 07 
+													&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 
+													OpenHCI 人機互動展覽</div>
 						</div>
 
 						
 
 						<div class="a_type_of_exp">
 							<div class="exp_type">活動經驗</div>
-							<div class="exp_details">2015 07 
-													&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 
-													OpenHCI人機互動工作坊 學員</div>
+							
 							<div class="exp_details">2014 06 
 													&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  
 													政大廣電畢展 平面文宣</div>
@@ -136,7 +132,7 @@
 						<div class="a_type_of_exp">
 							<div class="exp_type">工作經驗</div>
 							<div class="exp_details">2014-2016 &nbsp&nbsp 
-													女媧科技 系統維護實習生</div>
+													女媧科技 系統開發實習生</div>
 							<div class="exp_details">2015 11 
 													&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  
 													台北數位藝術節工讀生</div>
@@ -170,19 +166,16 @@
 		<div  id="workStartPage">
 			<div class='content'>
 				<div class="workStart_title">
-					<div id="myWork">MY WORK </div>
+					<div id="myWork">MY WORK</div>
 					<div id="collection">COLLECTIONS</div>
 				</div>			
-				<div>
-					<div class="workStartPage_content">
-							<div>產品設計</div>/
-							<div>APP UI 設計</div>/
-							<div>平面設計</div>/
-							<div>數位創作</div>/
-							<div>繪圖作品</div>/
-							<div>程式設計</div>
-					</div>
-				</div>
+				<!-- <div class="workStartPage_content">
+					<div>Research</div>/
+					<div>UI 設計</div>/
+					<div>視覺設計</div>/
+					<div>程式設計</div>/
+					<div>數位創作</div>
+				</div> -->
 			</div>
 		</div>
 
@@ -191,236 +184,217 @@
 			<div class='content'>
 				<div class="workCubeTitle">WORK COLLECTIONS</div>
 				<div class="workCubeSubTitle">
-					<div id='select_all'><a href="#works">全部</a></div> /
-					<div id='select_product'><a href="#works">產品設計</a></div> /
-					<div id='select_ui'><a href="#works">UI 設計</a></div> /
-					<div id='select_design'><a href="#works">平面設計</a></div> /
-					<div id='select_digital'><a href="#works">數位創作</a></div> /
-					<div id='select_draw'><a href="#works">繪圖作品</a></div> /
-					<div id='select_code'><a href="#works">程式設計</a></div>
+					<div class='select_all'><a href="#works">全部</a></div> /
+					<div class='select_research'><a href="#works">research</a></div> /
+					<div class='select_ui'><a href="#works">UI 設計</a></div> /
+					<div class='select_design'><a href="#works">視覺設計</a></div> /
+					<div class='select_digital'><a href="#works">互動設計</a></div> /
+					<div class='select_code'><a href="#works">程式設計</a></div>
 				</div>
 				<div class="workCubeContent">
-					<div class="item item-type-line code product">
-						<a class="item-hover" href="">
-							<div class="item-info left-42">
-								<div class="headline">Hot Spring Care</div>
-								<div class="headline">泡湯提醒幫手</div>
-								<div class="line"></div>
-								<div class="date">物聯網產品設計</div>
-								<div class="date">程式設計</div>
-							</div>
+					<div class="item code research">
+						<a class="item-hover" id="hot_spring_care">
 							<div class="mask"></div>
 						</a>
-						<div class="item-img"><img src="img/cube/hot_spring_care.png" alt="" /></div>
+						<div class="item-img"><img src="img/cube/hot_spring_care__rect.png" alt="" /></div>
+						<div class='item-info'>
+							<div class="item-info-tag select_research">research,</div>
+							<div class="item-info-tag select_code">程式設計</div>
+							<div class="item-info-title">Hot Spring Care</div>
+							<div class="item-info-content">
+								物聯網產品設計。泡湯安全提醒系統，隨時偵測使用者的身體狀況，給予及時提醒與協助。
+							</div>
+						</div>
 					</div>
 
 					
 					<div class="item item-type-line ui">
-						<a class="item-hover" href="">
-							<div class="item-info left-53">
-								<div class="headline">飲料店 '好了拉' </div>
-								<div class="headline">訂貨 app</div>
-								<div class="line"></div>
-								<div class="date">UI 設計</div>
-							</div>
+						<a class="item-hover" id="app">
 							<div class="mask"></div>
 						</a>
 						<div class="item-img"><img src="img/cube/big_ui.png" alt="" /></div>
+						<div class='item-info'>
+							<div class="item-info-tag select_ui">ui設計</div>
+							<div class="item-info-title">飲料店原料訂購</br> APP 設計</div>
+							<div class="item-info-content">
+								針對飲料店加盟商採購原料所設計的 APP 介面。
+							</div>
+						</div>
 					</div>
 
-					
-					<div class="item item-type-line product">
-						<a class="item-hover" href="">
-							<div class="item-info left-66">
-								<div class="headline">防忘貼片</div>
-								<div class="headline">產品概念發想</div>
-								<div class="line"></div>
-								<div class="date">產品設計</div>
-							</div>
-							<div class="mask"></div>
-						</a>
-						<div class="item-img"><img src="img/cube/U chip_01.png" alt="" /></div>
-					</div>
-					<div class="item item-type-line draw design">
-						<a class="item-hover" href="">
-							<div class="item-info left-125">
-								<div class="headline">圖像設計</div>
-								<div class="line"></div>
-								<div class="date">繪圖作品</div>
-								<div class="date">平面設計</div>
-							</div>
-							<div class="mask"></div>
-						</a>
-						<div class="item-img"><img src="img/cube/3_0.png" alt="" /></div>
-					</div>
-					<div class="item item-type-line draw design">
-						<a class="item-hover" href="">
-							<div class="item-info left-125">
-								<div class="headline">角色設計</div>
-								<div class="line"></div>
-								<div class="date">平面設計</div>
-								<div class="date">繪圖作品</div>
-							</div>
-							<div class="mask"></div>
-						</a>
-						<div class="item-img"><img src="img/cube/character.png" alt="" /></div>
-					</div>
-					
-					
-
-					<div class="item item-type-line design">
-						<a class="item-hover" href="">
-							<div class="item-info left-80">
-								<div class="headline">Live House</div>
-								<div class="headline">視覺設計</div>
-								<div class="line"></div>
-								<div class="date">平面設計</div>
-							</div>
-							<div class="mask"></div>
-						</a>
-						<div class="item-img"><img src="img/cube/live_house_logo.png" alt="" /></div>
-					</div>
-					
-					<div class="item item-type-line design">
-						<a class="item-hover" href="">
-							<div class="item-info left-66">
-								<div class="headline">政大廣電畢展</div>
-								<div class="headline">文宣設計</div>
-								<div class="line"></div>
-								<div class="date">平面設計</div>
-							</div>
-							<div class="mask"></div>
-						</a>
-						<div class="item-img"><img src="img/cube/infinigen.png" alt="" /></div>
-					</div>
-					
-					<div class="item item-type-line draw">
-						<a class="item-hover" href="">
-							<div class="item-info left-125">
-								<div class="headline">圖像設計</div>
-								<div class="line"></div>
-								<div class="date">繪圖作品</div>
-							</div>
-							<div class="mask"></div>
-						</a>
-						<div class="item-img"><img src="img/cube/kingsman.png" alt="" /></div>
-					</div>
-
-					<div class="item item-type-line digital code product">
-						<a class="item-hover" href="">
-							<div class="item-info left-48">
-								<div class="headline">Take Me Home</div>
-								<div class="headline">商場錯置提醒</div>
-								<div class="line"></div>
-								<div class="date">數位創作</div>
-								<div class="date">程式設計</div>
-								<div class="date">產品設計</div>
-							</div>
+					<div class="item item-type-line digital code research">
+						<a class="item-hover" id="openHCI">
 							<div class="mask"></div>
 						</a>
 						<div class="item-img"><img src="img/cube/openHCI.png" alt="" /></div>
+						<div class='item-info'>
+							<div class="item-info-tag select_research">research,</div>
+							<div class="item-info-tag select_code">程式設計</div>
+							<div class="item-info-title">Take Me Home</div>
+							<div class="item-info-content">
+								OPEN HCI 人機互動展覽。
+								針對商場錯置現象所設計的作品。透過物品擬人化讓人們提高對此現象的重視。
+							</div>
+						</div>
 					</div>
 
 					<div class="item item-type-line digital code">
-						<a class="item-hover" href="">
-							<div class="item-info left-66">
-								<div class="headline">Live House</div>
-								<div class="headline">音樂互動空間</div>
-								<div class="line"></div>
-								<div class="date">數位創作</div>
-								<div class="date">程式設計</div>
-							</div>
+						<a class="item-hover">
 							<div class="mask"></div>
 						</a>
 						<div class="item-img"><img src="img/cube/live_house_1_0.png" alt="" /></div>
-					</div>
-					<div class="item item-type-line digital code">
-						<a class="item-hover" href="">
-							<div class="item-info left-50">
-								<div class="headline">Live House 2.0</div>
-								<div class="headline">音樂互動空間</div>
-								<div class="line"></div>
-								<div class="date">數位創作</div>
-								<div class="date">程式設計</div>
+						<div class='item-info'>
+							<div class="item-info-tag select_research">互動設計, 程式設計</div>
+							<div class="item-info-title">Live House</div>
+							<div class="item-info-content">
+								互動音樂空間。讓參與者動手創造自己的音樂，同時產生視覺及回饋，展現音樂在聽覺以外的可能性。
 							</div>
+						</div>
+					</div>
+
+					<div class="item item-type-line digital code">
+						<a class="item-hover">
 							<div class="mask"></div>
 						</a>
 						<div class="item-img"><img src="img/cube/live_house_2_0.png" alt="" /></div>
+						<div class='item-info'>
+							<div class="item-info-tag select_research">互動設計, 程式設計</div>
+							<div class="item-info-title">Live House 2.0</div>
+							<div class="item-info-content">
+								互動音樂空間。延續 Live House 概念創作的作品，以達到更直覺的互動與回饋為目標進行創作。
+							</div>
+						</div>
 					</div>
 
 					<div class="item item-type-line digital code">
-						<a class="item-hover" href="">
-							<div class="item-info left-38">
-								<div class="headline">一節空堂</div>
-								<div class="headline">互動虛擬實境空間</div>
-								<div class="line"></div>
-								<div class="date">數位創作</div>
-								<div class="date">程式設計</div>
-							</div>
+						<a class="item-hover">
 							<div class="mask"></div>
 						</a>
 						<div class="item-img"><img src="img/cube/a_space.png" alt="" /></div>
+						<div class='item-info'>
+							<div class="item-info-tag select_research">互動設計, 程式設計</div>
+							<div class="item-info-title">一節空堂</div>
+							<div class="item-info-content">
+								台大、政大、北藝、實踐四校共同創作，
+								四面投影的互動虛擬實境空間。
+							</div>
+						</div>
 					</div>
 
 					<div class="item item-type-line digital">
-						<a class="item-hover" href="">
-							<div class="item-info left-38">
-								<div class="headline">秘密牆</div>
-								<div class="headline">聽與說的互動裝置</div>
-								<div class="line"></div>
-								<div class="date">數位創作</div>
-							</div>
+						<a class="item-hover">
 							<div class="mask"></div>
 						</a>
 						<div class="item-img"><img src="img/cube/serect_wall.png" alt="" /></div>
+						<div class='item-info'>
+							<div class="item-info-tag select_research">互動設計</div>
+							<div class="item-info-title">秘密牆</div>
+							<div class="item-info-content">
+								台大、政大、北藝、實踐四校共同創作，
+								錄製秘密以及聽取秘密的牆面裝置。
+							</div>
+						</div>
 					</div>
 
-					<div class="item item-type-line digital">
-						<a class="item-hover" href="">
-							<div class="item-info left-125">
-								<div class="headline">雷射染布</div>
-								<div class="line"></div>
-								<div class="date">數位創作</div>
-							</div>
+					<div class="item item-type-line design">
+						<a class="item-hover">
 							<div class="mask"></div>
 						</a>
-						<div class="item-img"><img src="img/cube/laser.png" alt="" /></div>
-					</div>
-					<div class="item item-type-line draw">
-						<a class="item-hover" href="">
-							<div class="item-info left-180">
-								<div class="headline">素描</div>
-								<div class="line"></div>
-								<div class="date">繪圖作品</div>
+						<div class="item-img"><img src="img/cube/infinigen.png" alt="" /></div>
+						<div class='item-info'>
+							<div class="item-info-tag select_research">視覺設計</div>
+							<div class="item-info-title">政大廣電畢展</br>文宣設計</div>
+							<div class="item-info-content">
+								與廣電系平面文宣團隊共同設計的文宣品，包括 DM、貼紙、名片、粉專用圖等等。
 							</div>
-							<div class="mask"></div>
-						</a>
-						<div class="item-img"><img src="img/cube/mike.png" alt="" /></div>
+						</div>
 					</div>
 
-					<div class="item item-type-line draw">
-						<a class="item-hover" href="">
-							<div class="item-info left-180">
-								<div class="headline">素描</div>
-								<div class="line"></div>
-								<div class="date">繪圖作品</div>
+					<div class="item item-type-line draw design">
+						<a class="item-hover">
+							<div class="mask"></div>
+						</a>
+						<div class="item-img"><img src="img/cube/3_0.png" alt="" /></div>
+						<div class='item-info'>
+							<div class="item-info-tag select_research">視覺設計</div>
+							<div class="item-info-title">圖像設計</div>
+							<div class="item-info-content">
+								與 '3.0' 一詞及投影機有關的 3 張插圖。
 							</div>
+						</div>
+					</div>
+
+					<div class="item item-type-line draw design">
+						<a class="item-hover">
+							<div class="mask"></div>
+						</a>
+						<div class="item-img"><img src="img/cube/character.png" alt="" /></div>
+						<div class='item-info'>
+							<div class="item-info-tag select_research">視覺設計</div>
+							<div class="item-info-title">圖像設計</div>
+							<div class="item-info-content">
+								角色設計
+							</div>
+						</div>
+					</div>
+					
+					
+
+					<div class="item item-type-line design">
+						<a class="item-hover">
+							<div class="mask"></div>
+						</a>
+						<div class="item-img"><img src="img/cube/live_house_logo.png" alt="" /></div>
+						<div class='item-info'>
+							<div class="item-info-tag select_research">視覺設計</div>
+							<div class="item-info-title">Live House 視覺設計</div>
+							<div class="item-info-content">
+								為 Live House 所進行的設計，包含主視覺、FB宣傳圖等。
+							</div>
+						</div>
+					</div>
+
+					<div class="item item-type-line draw design">
+						<a class="item-hover">
+							<div class="mask"></div>
+						</a>
+						<div class="item-img"><img src="img/cube/package.png" alt="" /></div>
+						<div class='item-info'>
+							<div class="item-info-tag select_research">視覺設計</div>
+							<div class="item-info-title">圖像設計</div>
+							<div class="item-info-content">
+								以六邊形為基本型設計出的 9 種圖樣設計。
+							</div>
+						</div>
+					</div>
+					
+					
+					
+					<div class="item item-type-line draw design">
+						<a class="item-hover">
+							<div class="mask"></div>
+						</a>
+						<div class="item-img"><img src="img/cube/kingsman.png" alt="" /></div>
+						<div class='item-info'>
+							<div class="item-info-tag select_research">視覺設計</div>
+							<div class="item-info-title">圖像設計</div>
+							<div class="item-info-content">
+							</div>
+						</div>
+					</div>
+
+
+					<div class="item item-type-line draw design">
+						<a class="item-hover">
 							<div class="mask"></div>
 						</a>
 						<div class="item-img"><img src="img/cube/girl.png" alt="" /></div>
-					</div>
-
-					<div class="item item-type-line code">
-						<a class="item-hover" href="">
-							<div class="item-info left-66">
-								<div class="headline">產學合作專案</div>
-								<div class="headline">訂貨決策系統</div>
-								<div class="line"></div>
-								<div class="date">程式設計</div>
+						<div class='item-info'>
+							<div class="item-info-tag select_research">視覺設計</div>
+							<div class="item-info-title">素描</div>
+							<div class="item-info-content">
 							</div>
-							<div class="mask"></div>
-						</a>
-						<div class="item-img"><img src="img/cube/ODSS.png" alt="" /></div>
+						</div>
 					</div>
 
 
@@ -429,13 +403,10 @@
 			</div>
 		</div>
 		
-		<!-- --------     footer    ------------------------------------------------------------- -->
+		<!-- --------     footer    ------------------------------------------------------------ -->
 		<footer>
 			<div id="footerText">© 2016 Yu Tung Hsiao.</div>
-		</footer>
-		
-
-		
+		</footer>	
 	</body>
 
 	
