@@ -266,7 +266,7 @@
   }
   .simple-modal.medium .simple-modal-body
   {
-    max-height: 100%;
+    max-height: 500px;
   }
 }
 
