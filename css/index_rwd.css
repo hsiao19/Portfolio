@@ -485,13 +485,6 @@ nav{
 		top : 10%;
 		float: none;
 	}
-	.aboutMe_content_right{
-		float: none;
-		top : 11%;
-		font-size : 0.7em;
-		width : 100%;
-		line-height : 25px;	
-	}
 
 	/* ---- skill & exp ------------------------------------ */
 	#skill_and_exp {
