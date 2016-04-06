@@ -1,0 +1,682 @@
+body{
+	width : 100%;
+}
+
+nav{
+	width : 100%;
+	top : 0px;
+	height : 67px;
+}
+.leftnav{
+	top : 23px;
+	left : 13%;
+	font-size : 1em;
+	letter-spacing : 0.1em;
+}
+
+.rightnav{
+	top : 23px;
+	right: 13%;	
+	font-size : 0.9em;
+	letter-spacing : 0.1em;
+}
+
+.menu {
+	top : 23px;
+	font-size : 0.9em;
+	display: none;
+}
+.menuSelection {
+	display: none;
+	position : absolute;
+	background-color: #3f3f3f;
+	float: left;
+	width: 100%;
+	top: 55px;
+	padding-left : 8%;
+	padding-bottom: 10px;
+	font-size : 0.9em;
+	letter-spacing : 0.1em;
+	font-weight: bold;
+}
+.menuSelection ul{
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+.rightnav span{
+	margin-left : 20px;
+}
+
+.content{
+	width : 74%;
+	padding-left : 13%;
+	padding-right: 13%;
+}
+
+#startPage {
+	height : 100%;
+}
+#startPage .content {
+	top : 45%;
+}
+
+#start_Name{
+	font-size : 1.8em;
+	letter-spacing : 0.1em;
+	margin-bottom : 10px;
+}
+.start_subtitle{
+	font-size : 1em;
+	letter-spacing : 0.05em;
+}
+
+#aboutMe,
+#aboutMe .content {
+	height : 680px;
+}
+.aboutMe_title{
+	float : left;
+	top : 37%;
+	font-size : 3.8em;
+	letter-spacing : 0.1em;
+}
+.aboutMe_content_right{
+	float : right;
+	top : 25%;
+	width : 45%;
+	font-size : 1em;
+	letter-spacing : 0.15em;
+	line-height : 28px;	
+	font-weight: 600;
+}
+
+
+
+#skill_and_exp {
+	height : 900px;
+}
+
+#skill_and_exp .content {
+	top : 100px;
+}
+
+.skill {
+	width: 48%;
+}
+
+.skill_title{
+	font-size : 3.5em;
+	letter-spacing : 0.1em;
+	margin-bottom : 20px;
+}
+.skill_content{
+	font-weight : 900;
+	line-height : 25px;
+	padding-left: 5px;
+}
+.skill_type{
+	font-size : 1em;
+	letter-spacing : 0.1em;	
+}
+.skill_details{
+	font-size : 0.9em;
+	letter-spacing : 0.1em;
+	margin-bottom : 1.5em;
+}
+
+.exp_title{
+	font-size : 3.5em;
+	letter-spacing : 0.1em;
+	margin-bottom : 20px;
+}
+.exp_content{
+	font-weight : bold;
+	padding-left: 5px;
+}
+.a_type_of_exp{
+	margin-bottom : 20px;
+}
+.exp_type{
+	font-size : 1em;
+	letter-spacing : 0.1em;	
+	margin-bottom : 0.2em;	
+}
+.exp_details{
+	font-size : 0.9em;
+	letter-spacing : 0.1em;
+	margin-bottom : 0.2em;
+}
+
+
+
+
+#workStartPage{
+	height : 100%;
+}
+#workStartPage .content {
+	top : 33%;
+}
+.workStart_title{
+	font-size : 4em;
+	letter-spacing : 0.1em;	
+}
+
+
+
+#workCollections {
+	height : 1950px;
+}
+#workCollections .content {
+	top : 100px;
+	padding-left : 0;
+	padding-right: 0;
+	width: 984px;
+}
+.workCubeTitle,
+.workCubeSubTitle {
+	left: 8px;
+}
+
+.workCubeTitle {
+	margin-bottom : 10px;
+	font-size : 1.3em;
+	letter-spacing : 0.05em;	
+}
+.workCubeSubTitle{
+	margin-bottom : 20px;
+}
+.workCubeSubTitle div{
+	font-size : 0.9em;
+	font-weight : bold;
+}
+
+
+
+.item,
+.item img,
+.item .mask {
+	border-radius : 2px;
+}
+
+.item img{
+	width: 100%;					
+}
+.item {
+	width: 230px;
+	height: 370px;
+	margin: 8px;
+	box-shadow: 0px 0px 2px #969696;
+}
+
+.item-hover,
+.mask,
+.item-img { 
+	width: 100%;
+	height: 370px;		
+}
+
+.item-info {
+	top : 204px;
+	padding-left : 30px;
+	padding-right : 30px;
+	
+}
+
+.item-info-tag{
+	margin-bottom: 8px;
+	font-size : 0.7em;
+}
+.item-info-title{
+	font-size : 1em;
+	margin-bottom: 8px;
+}
+.item-info-content{
+	font-size : 0.78em;
+	line-height : 20px;
+}
+
+@media screen and (max-width: 1300px) {
+	/* ---- work collections ---------------------------- */
+	#workCollections .content {
+		width: 738px;
+	}
+	#workCollections {
+		height : 2250px;
+	}
+}
+
+@media screen and (max-width: 1200px) {
+	/* ---- about me ------------------------------------ */
+	.aboutMe_title{
+		font-size : 3.3em;
+		top : 40%;
+	}
+	.aboutMe_content_right{
+		top : 20%;
+		font-size : 0.95em;
+	}
+
+	/* ---- skill & exp ------------------------------------ */
+	.skill_title{
+		font-size : 3em;
+		margin-bottom : 15px;
+	}
+	.skill_content{
+		padding-left: 3px;
+	}
+	.skill_type{
+		font-size : 0.95em;
+	}
+	.skill_details{
+		font-size : 0.85em;
+		margin-bottom : 20px;
+	}
+
+	.exp_title{
+		font-size : 3em;
+	}
+	.exp_content{
+		padding-left: 3px;
+	}
+	.a_type_of_exp{
+		margin-bottom : 20px;
+	}
+	.exp_type{
+		font-size : 0.95em;
+	}
+	.exp_details{
+		font-size : 0.85em;
+	}
+
+}
+
+@media screen and (max-width: 1000px) {
+	.leftnav{
+		left : 8%;
+	}
+	.rightnav{
+		right: 8%;	
+	}
+	.content {
+		width : 84%;
+		padding-left: 8%;
+		padding-right: 8%;
+	}
+
+	/* ---- about me ------------------------------------ */
+	.aboutMe_title{
+		font-size : 3.3em;
+		top : 40%;
+	}
+	.aboutMe_content_right{
+		top : 20%;
+		font-size : 0.95em;
+	}
+
+	/* ---- skill & exp ------------------------------------ */
+}
+
+@media screen and (max-width: 900px) {
+	nav {
+		height : 55px;
+	}
+
+	.leftnav {
+		top : 16px;
+		font-size : 0.9em;
+	}
+
+	.rightnav {
+		display: none;
+		top : 16px;
+		font-size : 0.9em;
+	}
+
+	.menu {
+		display: inline-block;
+		top : 16px;
+		right: 8%;
+	}
+
+	/* ---- start page ------------------------------------ */
+	#start_Name{
+		font-size : 1.5em;
+		margin-bottom : 10px;
+	}
+	.start_subtitle{
+		font-size : 0.95em;
+	}
+
+	/* ---- about me ------------------------------------ */
+	.aboutMe_title{
+		font-size : 2em;
+		top : 10%;
+		float: none;
+	}
+	.aboutMe_content_right{
+		float: none;
+		top : 11%;
+		font-size : 0.86em;
+		width : 100%;
+	}
+
+	/* ---- skill & exp ------------------------------------ */
+	#skill_and_exp .content {
+		top : 80px;
+	}
+	#skill_and_exp {
+		height : 1100px;
+	}
+
+	.skill {
+		float: none;
+		margin-bottom: 50px;
+		width: 100%;
+	}
+	.skill_title{
+		font-size : 2em;
+		margin-bottom : 10px;
+	}
+	.skill_content{
+		line-height : 25px;
+		padding-left: 2px;
+	}
+	.skill_type{
+		font-size : 0.9em;
+	}
+	.skill_details{
+		font-size : 0.8em;
+		margin-bottom : 10px;
+	}
+
+	.exp{
+		float : none;
+	}
+
+	.exp_title{
+		font-size : 2em;
+		margin-bottom : 10px;
+	}
+	.exp_content{
+		padding-left: 2px;
+	}
+	.a_type_of_exp{
+		margin-bottom : 20px;
+	}
+	.exp_type{
+		font-size : 0.9em;
+	}
+	.exp_details{
+		font-size : 0.8em;
+		letter-spacing : 0.1em;	
+	}
+
+	/* ---- work start ------------------------------------ */
+	.workStart_title{
+		font-size : 3em;
+		letter-spacing : 0.1em;	
+	}
+
+	/* ---- work collections ---------------------------- */
+	#workCollections .content {
+		width: 492px;
+	}
+	#workCollections {
+		height : 2980px;
+	}
+}
+
+@media screen and (max-width: 570px) {
+	/* ---- work collections ---------------------------- */
+	#workCollections .content {
+		width: 296px;
+	}
+	#workCollections {
+		height : 6250px;
+	}
+	.workCubeTitle {
+		margin-bottom : 10px;
+		font-size : 1.3em;
+		letter-spacing : 0.05em;	
+	}
+	.workCubeSubTitle{
+		margin-bottom : 20px;
+	}
+	.workCubeSubTitle div{
+		font-size : 0.8em;
+		font-weight : bold;
+	}
+	.item {
+		width: 280px;
+		height: 410px;
+		margin: 8px;
+		box-shadow: 0px 0px 2px #969696;
+	}
+
+	.item-hover,
+	.mask,
+	.item-img { 
+		width: 100%;
+		height: 410px;		
+	}
+
+	.item-info {
+		top : 244px;
+		padding-left : 30px;
+		padding-right : 30px;
+		
+	}
+}
+
+@media screen and (max-width: 500px) {
+	/* ---- start page ------------------------------------ */
+	#start_Name{
+		font-size : 1.3em;
+		margin-bottom : 10px;
+	}
+	.start_subtitle{
+		font-size : 0.8em;
+	}
+
+	/* ---- about me ------------------------------------ */
+	.aboutMe_title{
+		font-size : 1.5em;
+		top : 10%;
+		float: none;
+	}
+	.aboutMe_content_right{
+		float: none;
+		top : 11%;
+		font-size : 0.7em;
+		width : 100%;
+		line-height : 25px;	
+	}
+
+	/* ---- skill & exp ------------------------------------ */
+	#skill_and_exp {
+		height : 1100px;
+	}
+	.skill_content{
+		line-height : 22px;
+	}
+	.skill_title{
+		font-size : 1.5em;
+		margin-bottom : 10px;
+	}
+	.skill_type{
+		font-size : 0.8em;
+	}
+	.skill_details{
+		font-size : 0.7em;
+		margin-bottom : 10px;
+	}
+	.exp_title{
+		font-size : 1.5em;
+		margin-bottom : 10px;
+	}
+	.exp_type{
+		font-size : 0.8em;
+	}
+	.exp_details{
+		font-size : 0.7em;
+		letter-spacing : 0.1em;	
+		padding-bottom: 5px;
+	}
+	/* ---- work start ------------------------------------ */
+	#workStartPage .content {
+		top : 40%;
+	}
+	.workStart_title{
+		font-size : 2em;
+		letter-spacing : 0.1em;	
+	}	
+}
+
+@media screen and (max-width: 380px) {
+	/* ---- start page ------------------------------------ */
+	#start_Name{
+		font-size : 1.3em;
+		margin-bottom : 10px;
+	}
+	.start_subtitle{
+		font-size : 0.8em;
+	}	
+
+	/* ---- skill & exp ------------------------------------ */
+	#skill_and_exp {
+		height : 1150px;
+	}
+}
+
+.popup_img {
+	margin-bottom: 40px;
+	margin-top: 20px;
+}
+
+.popup_img img{
+	width: 100%;
+}
+
+.popup_title1,
+.popup_tag,
+.popup_content {
+	padding-right: 25px;
+	padding-left: 25px;
+}
+
+.popup_title1 {
+	font-size: 1.4em;
+	margin-bottom: 10px;
+	font-weight: 600;
+}
+
+.popup_tag {
+	font-size: 0.6em;
+	margin-bottom: 45px;
+	padding-bottom: 20px;
+	border-bottom:#c5c5c5 0.5px ridge; 
+	font-weight: 600;
+}
+
+.popup_title2,
+.popup_title3,
+.popup_content {
+}
+
+.popup_title3,
+.popup_content {
+	font-size: 10.5pt;
+}
+
+.popup_title3 {
+	margin-bottom: 3px;
+}
+
+.popup_title2 {
+	font-size: 12pt;
+	margin-bottom: 10px;
+}
+
+.popup_content {
+	margin-bottom: 60px;
+}
+
+.popup_content1 {	
+	line-height : 20px;
+	margin-bottom: 10px;
+}
+
+.popup_team {
+	margin-bottom: 10px;	
+}
+
+.hot_spring_care_img_g1 img{
+	width: 47%;
+	min-width: 200px;
+}
+.hot_spring_care_img_g1 {
+}
+
+.app_popup_content {
+}
+
+.app_tag {
+	margin-bottom: 10; 
+}
+
+.app_index,
+.app_index_img {
+	padding: 0;
+	margin-left: 10px;
+}
+
+.app_index_img {
+	margin-bottom: 50px;
+}
+
+.app_intro_title {
+	margin-bottom: 20px;
+}
+.app_content_img {
+	margin: 0;
+	padding: 0;
+}
+
+.popup_content_center {
+}
+
+.min_250_normal_50 img{
+	width: 50%;
+	min-width: 250px;
+}
+footer{
+	/*width:100%;*/
+	/*min-width:1200px;*/
+	height:50px;
+}
+#footerText{
+	/*width:150px;*/
+	text-align: center;
+	padding-top:15px;
+	font-size:10pt;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

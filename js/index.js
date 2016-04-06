@@ -1,5 +1,78 @@
 $(document).ready(function(){
+   $("#menu").click(function(){
+     $(".menuSelection").toggle();
+   });
 
+   $(".menuSelection").click(function(){
+         $(".menuSelection").hide();
+       }
+   );
+   $(".leftnav").click(function(){
+         $(".menuSelection").hide();
+       }
+   ); 
+
+  $(window).resize(function() {
+      console.log($( window ).width());
+      if($( window ).width() > 900) {
+        $(".menuSelection").hide();
+      }
+
+      if($( window ).width() < 370) {
+        $("#start_name").html("YU-TUNG,HSIAO </br>蕭宇彤")
+        $("#exp_details_livehouse_2_0").html("2015 10 " + 
+                                             "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp " +
+                                             "DCT進行式松菸展 " + "</br> " + 
+                                             "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp " +
+                                             "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp " +
+                                             "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp " +
+                                             " Live House 2.0");
+        $("#exp_details_livehouse_1_0").html("2015 05 " + 
+                                             "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp " +
+                                             "政大數位內容畢展 " + "</br> " + 
+                                             "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp " +
+                                             "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp " +
+                                             "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp " +
+                                             " Live House");
+        $("#exp_details_hot_spring").html("2016 01 " + 
+                                         "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp " +
+                                         "台大物聯網專案 " + "</br> " + 
+                                         "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp " +
+                                         "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp " +
+                                         "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp " +
+                                         " Hot Spring Care");
+        $("#exp_details_ODSS").html("2015 12 " + 
+                                     "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp " +
+                                     "政大資管畢業專題 " + "</br> " + 
+                                     "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp " +
+                                     "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp " +
+                                     "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp " +
+                                     " 訂貨決策系統");
+      }
+      else {
+        $("#start_name").html("YU-TUNG,HSIAO 蕭宇彤")
+        $("#exp_details_livehouse_2_0").html("2015 10 " + 
+                                             "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp " +
+                                             "DCT進行式松菸展 " + 
+                                             " Live House 2.0");
+        $("#exp_details_livehouse_1_0").html("2015 05 " + 
+                                             "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp " +
+                                             "政大數位內容畢展 " + 
+                                             " Live House");
+        $("#exp_details_hot_spring").html("2016 01 " + 
+                                         "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp " +
+                                         "台大物聯網專案 " + 
+                                         " Hot Spring Care");
+        $("#exp_details_ODSS").html("2015 12 " + 
+                                     "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp " +
+                                     "政大資管畢業專題 " +
+                                     " 訂貨決策系統");
+      }
+   });
+
+  
+
+  // choose work category
   $(".select_all").click(function(){
     $(".item").hide();
     $(".item").show();
@@ -42,6 +115,9 @@ $(document).ready(function(){
     openHCI_popup.show();
   });
 
+
+
+  
 
 });
 
@@ -164,7 +240,7 @@ var hot_spring_care_html = "" +
                 "計畫發想 | 蔡維庭 甯國駿 汪瑋宸 吳筠綺 葉家渝 許思聰 蕭宇彤</br>" +
                 "使用者訪談 | 吳筠綺 葉家渝</br>" +
                 "硬體設計 | 蔡維庭 甯國駿</br>" +
-                "網站架設 | 汪瑋宸</br>" +
+                "介面設計 | 汪瑋宸</br>" +
                 "程式設計 | 蔡維庭 甯國駿 汪瑋宸 蕭宇彤</br>" +
                 "產品外觀設計 | 吳筠綺 葉家渝 許思聰" +
             "</div>" +

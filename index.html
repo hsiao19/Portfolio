@@ -5,8 +5,10 @@
 		<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 		<link rel="stylesheet" href="css/reset.css" />
 		<link rel="stylesheet" type="text/css" href="css/index.css" />
+		<link rel="stylesheet" type="text/css" href="css/index_rwd.css" />
 		<link rel="stylesheet" type="text/css" href="css/simple-modal.css">	
 		<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>		
 		<script type="text/javascript" src="js/simple-modal.js"></script>
@@ -20,14 +22,23 @@
 		
 		<!-- --------     navbar        --------------------------------------------------------------------- -->
 		<nav>
+			<div class="menu">
+				<span id="menu"><a href="javascript:void(0);">&#9776</a></span>
+			</div>
 			<div class="leftnav">
 				<div><a href="#startPage">YU-TUNG,HSIAO 蕭宇彤</a></div>
 			</div>
 			<div class="rightnav">
-				<span><a href="#aboutMe">about me</a></span>
-				<span><a href="#skill_and_exp">skills & experience</a></span>
+				<span><a href="#aboutMe">ABOUT ME</a></span>
+				<span><a href="#skill_and_exp">SKILL & EXPERIENCE</a></span>
 				<span><a href="#workCollections">作品集</a></span>
 			</div>
+			<div class="menuSelection">
+				<!-- <ul><a href="#startPage">YU-TUNG,HSIAO 蕭宇彤</a></ul> -->
+				<ul><a href="#aboutMe">ABOUT ME</a></ul>
+				<ul><a href="#skill_and_exp">SKILL & EXPERIENCE</a></ul>
+				<ul><a href="#workCollections">作品集</a></ul>
+			</div>			
 		</nav>
 		
 
@@ -67,7 +78,7 @@
 		<div  id="skill_and_exp">
 			<div class="content">
 				<div class="skill">
-					<div class="skill_title">SKILLS</div>
+					<div class="skill_title">SKILL</div>
 					<div class="skill_content">
 						<div class="skill_type">平面 / 影像設計類</div>
 						<div class="skill_details">
@@ -75,12 +86,12 @@
 						</div>
 						<div class="skill_type">程式語言類</div>
 						<div class="skill_details">
-							python ( django / flask / 網站開發 )、java、php、<br/>
-							html、javascript、css<br/>
+							python ( django / flask / 網站開發 )、java、php、
+							html、javascript、css
 						</div>
 						<div class="skill_type">數位創作類</div>
 						<div class="skill_details">
-							Processing、Arduino、Resolume Arena、Unity、<br/>
+							Processing、Arduino、Resolume Arena、Unity、
 							SketchUp、AutoCAD
 						</div>
 					</div>
@@ -92,10 +103,12 @@
 
 						<div class="a_type_of_exp">
 							<div class="exp_type">展出經驗</div>
-							<div class="exp_details">2015 10 
-													&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  
-													DCT進行式松菸展 Live House 2.0</div>
-							<div class="exp_details">2015 05 
+							<div class="exp_details" id="exp_details_livehouse_2_0">
+											 2015 10 
+                                             &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 
+                                             DCT進行式松菸展 
+                                             Live House 2.0</div>
+							<div class="exp_details" id="exp_details_livehouse_1_0">2015 05 
 													&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  
 													政大數位內容畢展 Live House</div>
 							<div class="exp_details">2015 05 
@@ -149,10 +162,10 @@
 
 						<div class="a_type_of_exp">
 							<div class="exp_type">其他</div>
-							<div class="exp_details">2016 01  
+							<div class="exp_details" id="exp_details_hot_spring">2016 01  
 													&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  
 													台大物聯網專案 Hot Spring Care</div>
-							<div class="exp_details">2015 12 
+							<div class="exp_details" id="exp_details_ODSS">2015 12 
 													&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  
 													政大資管畢業專題 訂貨決策系統</div>
 						</div>						
