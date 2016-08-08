@@ -37,7 +37,6 @@ nav{
 	padding-bottom: 10px;
 	font-size : 0.9em;
 	letter-spacing : 0.1em;
-	font-weight: bold;
 }
 .menuSelection ul{
 	padding-top: 8px;
@@ -85,10 +84,9 @@ nav{
 	float : right;
 	top : 25%;
 	width : 45%;
-	font-size : 1em;
+	font-size : 0.95em;
 	letter-spacing : 0.15em;
 	line-height : 28px;	
-	font-weight: 600;
 }
 
 
@@ -111,7 +109,6 @@ nav{
 	margin-bottom : 20px;
 }
 .skill_content{
-	font-weight : 900;
 	line-height : 25px;
 	padding-left: 5px;
 }
@@ -131,7 +128,7 @@ nav{
 	margin-bottom : 20px;
 }
 .exp_content{
-	font-weight : bold;
+	
 	padding-left: 5px;
 }
 .a_type_of_exp{
@@ -165,7 +162,7 @@ nav{
 
 
 #workCollections {
-	height : 1950px;
+	height : 1850px;
 }
 #workCollections .content {
 	top : 100px;
@@ -188,7 +185,7 @@ nav{
 }
 .workCubeSubTitle div{
 	font-size : 0.9em;
-	font-weight : bold;
+	
 }
 
 
@@ -242,11 +239,11 @@ nav{
 		width: 738px;
 	}
 	#workCollections {
-		height : 2250px;
+		height : 2200px;
 	}
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1230px) {
 	/* ---- about me ------------------------------------ */
 	.aboutMe_title{
 		font-size : 3.3em;
@@ -445,7 +442,7 @@ nav{
 	}
 	.workCubeSubTitle div{
 		font-size : 0.8em;
-		font-weight : bold;
+		
 	}
 	.item {
 		width: 280px;
@@ -501,7 +498,7 @@ nav{
 		font-size : 0.8em;
 	}
 	.skill_details{
-		font-size : 0.7em;
+		font-size : 0.75em;
 		margin-bottom : 10px;
 	}
 	.exp_title{
@@ -512,7 +509,7 @@ nav{
 		font-size : 0.8em;
 	}
 	.exp_details{
-		font-size : 0.7em;
+		font-size : 0.75em;
 		letter-spacing : 0.1em;	
 		padding-bottom: 5px;
 	}
@@ -561,7 +558,6 @@ nav{
 .popup_title1 {
 	font-size: 1.4em;
 	margin-bottom: 10px;
-	font-weight: 600;
 }
 
 .popup_tag {
@@ -569,12 +565,6 @@ nav{
 	margin-bottom: 45px;
 	padding-bottom: 20px;
 	border-bottom:#c5c5c5 0.5px ridge; 
-	font-weight: 600;
-}
-
-.popup_title2,
-.popup_title3,
-.popup_content {
 }
 
 .popup_title3,
@@ -600,18 +590,14 @@ nav{
 	margin-bottom: 10px;
 }
 
-.popup_team {
-	margin-bottom: 10px;	
+.popup_content_team{
+	font-size: 0.92em;
+	line-height: 1.8em;
 }
-
+	
 .hot_spring_care_img_g1 img{
 	width: 47%;
 	min-width: 200px;
-}
-.hot_spring_care_img_g1 {
-}
-
-.app_popup_content {
 }
 
 .app_tag {
@@ -634,9 +620,6 @@ nav{
 .app_content_img {
 	margin: 0;
 	padding: 0;
-}
-
-.popup_content_center {
 }
 
 .min_250_normal_50 img{

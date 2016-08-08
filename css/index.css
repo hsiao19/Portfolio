@@ -14,21 +14,19 @@ nav{
 }
 .leftnav{
 	position : relative;
-	float : left;
-	font-weight : bold;
+	float : left;	
 }
 
 .rightnav{
 	position : relative;
-	float : right;
-	font-weight : bold;
+	float : right;	
 	background-color: #3f3f3f;
 }
 
 .menu{
 	position : relative;
 	float : right;
-	font-weight : bold;
+	
 	z-index: 201;
 }
 
@@ -53,10 +51,10 @@ nav a:hover{color: #dddddd;}
 }
 
 #start_Name{
-	font-weight : bold;
+	
 }
 .start_subtitle{
-	font-weight : bold;
+	
 }
 
 #aboutMe,
@@ -66,12 +64,12 @@ nav a:hover{color: #dddddd;}
 .aboutMe_title{
 	color : #0c54a5;
 	position : relative;	
-	font-weight:bold;
+	
 }
 .aboutMe_content_right{
 	color : #333333;
 	position : relative;	
-	font-weight : bold;
+	
 }
 
 
@@ -90,7 +88,7 @@ nav a:hover{color: #dddddd;}
 
 .skill_title{
 	position : relative;
-	font-weight : bold;
+	
 	color : #333333;
 }
 .skill_content{
@@ -102,7 +100,7 @@ nav a:hover{color: #dddddd;}
 	float : right;
 }
 .exp_title{
-	font-weight : bold;
+	
 	color:#333333;
 }
 .exp_content{
@@ -117,7 +115,7 @@ nav a:hover{color: #dddddd;}
 	position : relative;
 }
 .workStart_title{
-	font-weight : bold;
+	
 	color : #ffffff;
 }
 #myWork,
@@ -130,7 +128,7 @@ nav a:hover{color: #dddddd;}
 }
 .workStartPage_content div {
 	display : inline-block;
-	font-weight : bold;
+	
 	color : white;
 }
 
@@ -145,14 +143,9 @@ nav a:hover{color: #dddddd;}
 	position : relative;
 }
 
-.workCubeTitle {
-	font-weight : bold;
-}
-.workCubeSubTitle{
-}
 .workCubeSubTitle div{
 	display : inline;
-	font-weight : bold;
+	
 }
 
 
@@ -223,11 +216,10 @@ nav a:hover{color: #dddddd;}
 	color: #AAAAAA;
 }
 .item-info-title{
-	font-weight: bold;
+	
 	color : #2B2B2B;
 }
 .item-info-content{
-	font-weight: normal;
 	color : #444;
 }
 
@@ -237,17 +229,6 @@ nav a:hover{color: #dddddd;}
 
 .popup_img {
 	text-align: center;
-}
-
-.popup_img img{
-}
-
-.popup_title1,
-.popup_tag,
-.popup_content {
-}
-
-.popup_title1 {
 }
 
 .popup_tag {
@@ -260,24 +241,8 @@ nav a:hover{color: #dddddd;}
 	color: #404040;
 }
 
-.popup_title3,
-.popup_content {
-}
-
-.popup_title3 {
-}
-
 .popup_title2 {
-	font-weight: bold;
-}
-
-.popup_content {
-}
-
-.popup_content1 {	
-}
-
-.popup_team {
+	
 }
 
 .hot_spring_care_img_g1 img{
@@ -291,20 +256,12 @@ nav a:hover{color: #dddddd;}
 	text-align: center;
 }
 
-.app_tag {
-}
-
 .app_index,
 .app_index_img {
-	padding: 0;
-	margin: 0;
+	padding-top: 0;
+	margin-top: 0;
 }
 
-.app_index_img {
-}
-
-.app_intro_title {
-}
 .app_content_img {
 	margin: 0;
 	padding: 0;
